@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h5 class="display-4">Decorate your home with lots of LOVE!<i class="bi bi-heart-fill"></i></h5>
+    <h1>Decor Items for your Home</h1>
+    
+    <div class=cont>
+        <form action="http://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="search for decorative items in google" name="q">
+            <button type="submit"><img src="~/images/search.png" alt="search"></button>
+        </form>
+    </div>
+    <div class="contain">
+        <div class="boxes">
+            <h2><a asp-area="" asp-controller="Home" asp-action="Kitchen">Living Room</a></h2>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="boxes">
+            <h2><a asp-area="" asp-controller="Home" asp-action="Kitchen">Dining Room</a></h2>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="boxes">
+            <h2><a asp-area="" asp-controller="Home" asp-action="Kitchen">Bed Room</a></h2>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="boxes">
+            <h2><a asp-area="" asp-controller="Home" asp-action="Kitchen">Bathroom</a></h2>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="boxes">
+            <h2><a asp-area="" asp-controller="Home" asp-action="Kitchen">Kitchen</a></h2>
+        </div>
+    </div>
+</div>
+

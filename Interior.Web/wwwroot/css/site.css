@@ -1,0 +1,141 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body {
+    /*margin-bottom: 60px;*/
+    color: black;
+    background-image: url("home.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #58629b;
+}
+.cont {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    /*background-image: linear-gradient(rgba(0,8,51,0,9), rgba(0,8,51,0,9), url());*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}
+
+.search-bar button img {
+    width: 25px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+.con {
+    display: inline-block;
+    padding: 33px;
+    width: 231px;
+    height: 500px;
+    margin: 13px;
+}
+
+.box {
+    float: left;
+    width: 261px;
+    height: 550px;
+    margin: 10px;
+    padding: 10px;
+    /*background: rgba(255, 255, 255, 0.2);*/
+   /* backdrop-filter: blur(4px) saturate(180%);*/
+}
+.contain {
+    display: inline-block;
+    padding: 33px;
+    width: 214px;
+    height: auto;
+    margin: 13px;
+}
+
+.boxes {
+    float: left;
+    width: 235px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px) saturate(180%);
+}
+h2{
+    color: black;
+    background-color: black;
+}
+img {
+    border-radius: 50%;
+}
